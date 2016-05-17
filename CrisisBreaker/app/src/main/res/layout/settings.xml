@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_width="185dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/minibtn4"
+            android:id="@+id/button4"
+            android:layout_gravity="right|center_vertical" />
+
+        <Button
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/minibtn3"
+            android:id="@+id/button3"
+            android:layout_gravity="left|center_vertical"/>
+    </FrameLayout>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner1"
+        android:prompt="@string/city"
+        android:spinnerMode="dropdown"
+        android:layout_margin="10dp"
+        android:scrollbarSize="20dp"
+        ></Spinner>
+
+</LinearLayout>
